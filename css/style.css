@@ -1,0 +1,141 @@
+/* ======= Хедър с лога ======= */
+
+.header-logos {
+    background-color: #FFFFFF;
+    padding: 25px 10px 10px 10px;
+    text-align: center;
+    border-bottom: 4px solid #003C8F;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.logo-row img {
+    height: 55px;
+    object-fit: contain;
+}
+
+.header-title h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    color: #003C8F;
+}
+
+.header-title h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #003C8F;
+}
+
+/* ======= Основни настройки ======= */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* ======= Заглавия ======= */
+
+h1, h2, h3, h4 {
+    color: #003C8F;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* ======= Хедър ======= */
+
+header {
+    background-color: #E6F2FF;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+/* ======= Меню ======= */
+
+nav {
+    background-color: #003C8F;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 12px 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #0054C2;
+}
+
+/* ======= Секции ======= */
+
+section {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 1px solid #DDE7F5;
+}
+
+section:nth-child(even) {
+    background-color: #E6F2FF;
+}
+
+/* ======= Галерия ======= */
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery-container img {
+    width: 250px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ======= Футър ======= */
+
+footer {
+    background-color: #003C8F;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    margin-top: 30px;
+    font-size: 14px;
+}
